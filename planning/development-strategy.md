@@ -1,55 +1,32 @@
-# Project Name
+# Portfolio
 
-<!-- describe your project -->
+Some information about me and my skills
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new repo from the template ( protect main branch, turn on discussion)
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+### Home page
 
-## user story
+- As a user, I want to see the `logo`, `title`, `navigation links` and
+  `description`
 
-<!-- each issue created from this section will have the `for: user story` label -->
+### About
 
-> "as a ... i can ... so that ..."
+- As a user, I want to see the `info`
 
-<!-- write any extra notes or description -->
+### Projects
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- As a user, I want to see the `info` about projects
 
-### Logic: user story
+### CV
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- As a user, I want to see the `image` and `info`
 
-### Interface: user story
+### Contact
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- As a user, I want to see the `social media links`
