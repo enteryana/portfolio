@@ -17,6 +17,7 @@ html,
 body {
   height: 100%;
   background-color: rgb(234, 197, 197);
+  margin-left: -8px;
 }
 
 .lato-regular {
@@ -36,18 +37,15 @@ main {
 }
 
 /* header */
-
 .header {
   display: flex;
   background: rgba(0, 0, 0, 0.5);
   height: 45px;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .navbar {
   display: flex;
-  align-items: center;
   padding-left: 15%;
 }
 
@@ -61,32 +59,27 @@ main {
   color: #0f141e;
 }
 
-/* main content */
+/* info */
 
-.text {
-  font-size: 30px;
-}
-
-.descript {
-  margin-top: 150px;
+.info {
   font-size: 20px;
-  margin-left: 10%;
-  width: 50%;
-  float: left;
+  padding: 15px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.main-photo {
+.section1,
+.section2,
+.section3 {
+  background: rgba(2, 3, 1, 0.6);
+  padding: 10px;
+  border-radius: 25px;
   justify-content: space-between;
-  margin-top: 60px;
+  margin: 15px;
+  color: rgb(255, 255, 62);
 }
 
-.main-photo > img {
-  height: 250px;
-  border-radius: 50%;
-}
-
-/* Footer */
-
+/* footer */
 .footer {
   text-align: center;
   background-color: rgb(255, 131, 131);
