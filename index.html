@@ -1,53 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <header class="left-side">
-      <div class="container-logo">
-        <a href="./index.html"
-          ><img src="./img/logocode.png" alt="logo" class="logo"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+    rel="stylesheet" />
+  <title>Portfolio</title>
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="content">
+    <header class="header">
+      <div class="header__container _container">
+        <a href="" class="header__logo"> enteryana </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="" class="menu__link">Home</a></li>
+            <li class="menu__item">
+              <a href="" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <p class="text">I'm an aspiring frontend developer</p>
     </header>
-    <section class="descript">
-      <div>
-        <p>
-          Hi, my name's Yana and I'm learning HTML and CSS <br />
-          This is one of my practice assignments
-        </p>
-      </div>
-    </section>
-
-    <section class="right-side">
-      <div class="main-photo">
-        <img src="./img/mainphoto.jpg" alt="photo" />
-      </div>
-      <div class="navigation">
-        <div class="navbar">
-          <div class="about">
-            <a href="./pages/about.html">ABOUT</a>
-          </div>
-          <!--
-          <div class="projects">
-            <a href="./pages/projects.html">PROJECTS</a>
-          </div>
-          -->
-          <div class="cv">
-            <a href="./pages/cv.html">CV</a>
-          </div>
-          <div class="contact">
-            <a href="./pages/contact.html">CONTACT</a>
+    <main class="page">
+      <div class="page__main-block main-block">
+        <div class="main-block__container _container">
+          <div class="main-block__body">
+            <h1 class="main-block__title">
+              I'm an aspiring frontend developer
+            </h1>
+            <div class="main-block__text">
+              Hi, my name's Yana and I'm learning HTML and CSS. This is one of
+              my practice assignments.
+            </div>
+            <!---<div class="main-block__buttons">
+              <a href="" class="main-block__button main-block__button_border">CV</a>
+            </div>---->
           </div>
         </div>
+        <div class="main-block__image _ibg">
+          <img src="./img/bgf.jpg" alt="cover">
+        </div>
       </div>
-    </section>
-  </body>
+      <section class="page__about about">
+        <div class="about__container _container">
+          <div class="about__body">
+            <div class="about__column">
+              <div class="about__item item-about-i">
+                <h3 class="item_about-i__title">Why IT?</h3>
+                <div class="item-about-i__text">
+                  The constant evolution and improvement of everything in the
+                  IT field is a major advantage.
+                </div>
+              </div>
+            </div>
+            <div class="about__column">
+              <div class="about__item item-about-i">
+                <h3 class="item_about-i__title">
+                  Live, work in your free time
+                </h3>
+                <div class="item-about-i__text">
+                  The availability of computers and technology has given us
+                  the opportunity to work remotely, which is amazing. While
+                  there are many different specialties in any industry, I
+                  chose front-end development.
+                </div>
+              </div>
+            </div>
+            <div class="about__column">
+              <div class="about__item item-about-i">
+                <h3 class="item_about-i__title">Continuous development</h3>
+                <div class="item-about-i__text">
+                  Despite being new to this specialty, I have plenty of new
+                  and exciting things to uncover.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__skills skills">
+        <div class="skills__container _container">
+          <div class="skills__header header-block">
+            <h2 class="header-block__title">My skills</h2>
+            <div class="header-block__sub-title">
+              It's something I've already started to learn and continue to
+              refine
+            </div>
+          </div>
+          <div class="skills__body">
+            <div class="skills__column">
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/iconmd.png" alt="markdown" />
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/iconhtml.png" alt="html" />
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/iconcss.png" alt="css" />
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/icong.png" alt="git" />
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/icongh.png" alt="github" />
+                </div>
+              </div>
+              <div class="skills__item">
+                <div class="skills__icon">
+                  <img src="./img/iconjs.png" alt="js" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">© by enteryana</footer>
+  </div>
+</body>
+
 </html>

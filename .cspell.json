@@ -19,7 +19,9 @@
     "Yumi",
     "marcap",
     "Hosok",
-    "Yana"
+    "Yana",
+    "enteryana",
+    "descript" 
   ],
   "ignorePaths": [
     "node_modules/**",
